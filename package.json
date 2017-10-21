@@ -1,0 +1,27 @@
+{
+  "name": "ocads",
+  "version": "1.0.0",
+  "description": "Ads",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sylwesterdigital/oncecinematic.git"
+  },
+  "keywords": [
+    "online"
+  ],
+  "author": "Sylwester Mielniczuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sylwesterdigital/oncecinematic/issues"
+  },
+  "homepage": "https://github.com/sylwesterdigital/oncecinematic#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
