@@ -2,8 +2,8 @@ $color-red: #FF0000;
 $color-green: #00FF00;
 $color-blue: #0000FF;
 
-$W: 970;
-$H: 250;
+$W: 970px;
+$H: 250px;
 
 body {
   vertical-align: baseline;
@@ -24,6 +24,32 @@ body {
     font-size: 9pt;
     color: #333;
   }
+}
+
+canvas {
+	width: $W;
+	height: $H;
+}
+
+.fullel {
+	display: block;
+	position: absolute; 
+	left: 0px; 
+	top:0px; 
+	width: $W; 
+	height: $H;	
+}
+
+#logo { 
+	background: url("../images/logo.png") no-repeat;	
+}
+
+#copy {
+	background: url("../images/copy.png") no-repeat;	
+}
+
+#cta {
+	background: url("../images/cta.png") no-repeat;	
 }
 
 #main-container {

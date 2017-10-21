@@ -4,13 +4,21 @@
 <head>
 	<meta data-template-name="Template_H5T_inpage-970x250-image">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<!--build:css css/styles.min.css-->	
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<script type="text/javascript" src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
-	<script src="js/zepto.min.js"></script>
+	<!--endbuild-->	
 	
+	<script type="text/javascript" src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+
+	<!--build:js js/main.min.js -->
+	<script src="js/zepto.min.js"></script>
 	<script type="text/javascript">
 		var clickTag = "http://flaboy.com";
 	</script>
+	<script src="js/logic.js"></script>
+	<!-- endbuild -->
+
 	
 
 </head>
@@ -30,10 +38,10 @@
 					<canvas id="canvas3" width="970" height="250" style="display:none"></canvas>
 				</div>
 
-				<div id="images">
-					<div id="logo" style='position: absolute; left: 0px; top:0px; width: 970px; height: 250px; background-image: url("images/logo.png");'></div>
-					<div id="copy" style='position: absolute; left: 0px; top:0px; width: 970px; height: 250px; background-image: url("images/copy.png");'></div>
-					<div id="cta" style='position: absolute; left: 0px; top:0px; width: 970px; height: 250px; background-image: url("images/cta.png");'></div>
+				<div class="fullel" id="images">
+					<div class="fullel" id="logo"></div>
+					<div class="fullel" id="copy"></div>
+					<div class="fullel" id="cta"></div>
 				</div>
 
 			</div>
@@ -44,7 +52,7 @@
 
 	</div>
 
-	<script src="js/logic.js"></script>
+	
 </body>
 
 </html>
