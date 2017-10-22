@@ -7,6 +7,7 @@ var gulpIf = require('gulp-if');
 var cssnano = require('gulp-cssnano');
 var imagemin = require('gulp-imagemin');
 
+
 gulp.task('images', function(){
   return gulp.src('app/images/**/*.+(png|jpg|gif|svg)')
   .pipe(imagemin())
@@ -42,6 +43,7 @@ gulp.task('browserSync', function() {
     },
   })
 })
+
 
 gulp.task('watch', ['browserSync', 'sass' , 'useref', 'images'], function (){
   gulp.watch('app/scss/**/*.scss', ['sass']);
